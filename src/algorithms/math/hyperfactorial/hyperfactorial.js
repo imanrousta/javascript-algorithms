@@ -1,16 +1,13 @@
-
-function factorial(n) {
+function hyperfactorial(n) {
 	let result = 1;
 
 	if (n === 0 || n === 1) {
 		return result;
 	} else {
 		for (let i = 2; i <= n; i += 1) {
-			result *= i;
+			result *= Math.pow(i,i);
 		}
 
 		return result;
 	}
 };
-
-module.exports = factorial;
