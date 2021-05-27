@@ -16,7 +16,5 @@ function primorial(n) {
 		}
 	}
 
-	return primeArray.reduce( (a, b) => a * b );
-}
-
-
+	return primeArray.reduce((a, b) => a * b);
+};

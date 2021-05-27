@@ -1,4 +1,4 @@
-const factorial = require('../factorial/factorial');
+const factorial = require("../factorial/factorial");
 
 function superfactorial(n) {
 	let result = 1;
@@ -12,4 +12,4 @@ function superfactorial(n) {
 
 		return result;
 	}
-};
+}
