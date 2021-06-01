@@ -1,4 +1,4 @@
-function bce(array) {
+function bce(prediction, target) {
 	let sum = 0;
 	let ans = 0;
 	let targetLength = target.length;
